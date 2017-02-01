@@ -17,6 +17,8 @@ gettingAllCommands.then((commands) => {
   }
 });
 
+console.log("Is it working?");
+
 /**
  * Fired when a registered command is activated using a keyboard shortcut.
  *
@@ -26,3 +28,6 @@ gettingAllCommands.then((commands) => {
 browser.commands.onCommand.addListener((command) => {
   console.log("onCommand event received for message: ", command);
 });
+
+
+console.log("It's working!");
