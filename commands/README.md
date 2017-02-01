@@ -1,13 +1,5 @@
-# commands
 
-This extension includes:
+# This extension shows
 
-* a background script, "background.js"
-
-All it does is:
-
-* register a shortcut (Ctrl+Shift+U) to send a command to the extension (Command+Shift+U on a Mac).",
-
-It shows:
-
-* how to use chrome.commands to register keyboard shortcuts for your extension.
+* how Firefox breaks extension if there is no suggested_key defined
+* incompatibility with chrome's commands API
